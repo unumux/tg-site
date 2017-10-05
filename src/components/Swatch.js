@@ -20,7 +20,7 @@ const Description = styled.p`
 `;
 
 export const Swatch = props => 
-    <StyledSwatch>
+    <StyledSwatch {...props}>
         <Heading>{props.name}</Heading>
         <Box hex={props.hex}></Box>
         <Description>{props.hex}</Description>
