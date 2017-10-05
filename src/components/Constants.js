@@ -3,6 +3,14 @@ import styled from 'styled-components';
 import { Swatch } from './Swatch';
 
 const StyledConstants = styled.div`
+    
+`;
+
+const Heading = styled.h1`
+
+`;
+
+const Swatches = styled.div`
     display: flex;
     justify-content: space-around;
 `;
@@ -23,8 +31,11 @@ const Add = styled.a`
 
 export const Constants = props => 
     <StyledConstants>
-        <Swatch name='Purple' hex='#127881' />
-        <Swatch name='Blue' hex='#998877' />
-        <Swatch name='Yellowwww' hex='182936' />
-        <Add>Add</Add>
+        <Heading>Constants</Heading>
+            <Swatches>
+                <Swatch name='Purple' hex='#127881' />
+                <Swatch name='Blue' hex='#998877' />
+                <Swatch name='Yellowwww' hex='182936' />
+            </Swatches>
+            <Add>Add</Add>
     </StyledConstants>
