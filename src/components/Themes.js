@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Swatch } from './Swatch';
 
 
-const StyledThemes = styled.div`
+const StyledThemes = styled.section`
     color: red;
 `;
 
