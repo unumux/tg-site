@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Swatch } from './Swatch';
 
-const StyledConstants = styled.div`
+const StyledConstants = styled.section`
     
 `;
 
