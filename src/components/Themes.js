@@ -19,7 +19,7 @@ const SectionHeading = styled.h1`
 
 `;
 
-const Swatches = styled.ul`
+const Swatches = styled.div`
 
 `;
 
