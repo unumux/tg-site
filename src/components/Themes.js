@@ -1,14 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ThemePalette = styled.div;
+const StyledThemes = styled.div`
+    color: red;
+`;
 
-export const Themes = (props) => 
-    <ThemePalette>
-        <div> 
-            <div></div>
-            <h1>$theme-variable-whatever</h1>
-            <p>Hex Value</p>
-        </div>
-    </ThemePalette>
+export const Themes = props =>
+    <StyledThemes>
+        <h1>theme-variable-whatever</h1>
+        <p>Hex Value</p>
+    </StyledThemes>
 ;
+
+export default { Themes };
