@@ -4,7 +4,7 @@ import { Swatch } from './Swatch';
 
 
 const StyledThemes = styled.section`
-    color: red;
+
 `;
 
 const Heading = styled.h1`
