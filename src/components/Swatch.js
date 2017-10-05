@@ -2,18 +2,27 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledSwatch = styled.div`
-    background-color: ${props => props.hex};
-    border: 2px solid blue;
-    padding: 2rem;
+
 `;
 
-const Heading = styled.h1``;
+const Heading = styled.h1`
+    margin: 0;
+`;
 
-const Description = styled.p``;
+const Box = styled.div`
+    background-color: ${props => props.hex};
+    height: 10rem;
+    width: 10rem;
+`;
+
+const Description = styled.p`
+    margin: 0;
+`;
 
 export const Swatch = props => 
-    <StyledSwatch hex={props.hex}>
+    <StyledSwatch>
         <Heading>{props.name}</Heading>
+        <Box hex={props.hex}></Box>
         <Description>{props.hex}</Description>
     </StyledSwatch>
 
