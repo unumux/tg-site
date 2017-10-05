@@ -33,9 +33,9 @@ export const Constants = props =>
     <StyledConstants>
         <Heading>Constants</Heading>
             <Swatches>
-                <Swatch name='Purple' hex='#128397' />
-                <Swatch name='Blue' hex='#521928' />
-                <Swatch name='Yellowwww' hex='#182936' />
+                <Swatch name='Purple' hex='#127881' />
+                <Swatch name='Blue' hex='#669933' />
+                <Swatch name='Yellowwww' hex='#ff7700' />
             </Swatches>
             <Add>Add</Add>
     </StyledConstants>
